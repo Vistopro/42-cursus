@@ -6,7 +6,7 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 14:47:34 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:24:38 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/20 14:11:57 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,5 @@ char	*ft_strchr(const char *s, int c)
 // {
 // 	char *str = "hola";
 // 	int c = 'o';
-// 	printf("%s\n", strchr(str, c));
 // 	printf("%s\n", ft_strchr(str, c));
 // }

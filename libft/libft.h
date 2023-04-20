@@ -6,7 +6,7 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 12:29:16 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:55:27 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:34:14 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,9 @@ int		ft_atoi(const char *str);
 char	*ft_strrchr(const char *s, int c);
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *src);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strtrim(char const *s1, char const *set);
+char	*ft_itoa(int n);
 
 #endif
