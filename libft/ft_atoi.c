@@ -6,7 +6,7 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:21:43 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/21 11:13:07 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/24 16:31:41 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	ft_atoi(const char *str)
 	}
 	while (str[i] >= '0' && str[i] <= '9')
 	{
-		num = (num) * 10 + (str[i] - '0');
+		num = (num)*10 + (str[i] - '0');
 		i++;
 	}
 	return (signo * num);
