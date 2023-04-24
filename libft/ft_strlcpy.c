@@ -6,12 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:14:44 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:24:46 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:15:38 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*strlcpy() copies up to dstsize - 1 characters from the string src to dst,
-NUL-terminating the result if dstsize is not 0.*/
 
 // #include <stdio.h>
 #include "libft.h"
@@ -51,3 +48,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 // 	printf("%d\n", i);
 // 	printf("%s\n", dest);
 // }
+
+/*strlcpy() copies up to dstsize - 1 characters from the string src to dst,
+NUL-terminating the result if dstsize is not 0.*/

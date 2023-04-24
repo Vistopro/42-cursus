@@ -6,15 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 15:24:50 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:24:21 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:14:23 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*The memcpy() function copies n bytes from memory area src to memory area
-dst.  If dst and src overlap, behavior is undefined.  Applications in
-which dst and src might overlap should use	memmove(3) instead.
-
-The	memcpy(void) function returns the original value of dst.*/
 
 // #include <stdio.h>
 #include "libft.h"
@@ -54,3 +48,9 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 // 	memcpy(ptr, src, n);
 // 	printf("%s\n", ptr);
 // }
+
+/*The memcpy() function copies n bytes from memory area src to memory area
+dst.  If dst and src overlap, behavior is undefined.  Applications in
+which dst and src might overlap should use	memmove(3) instead.
+
+The	memcpy(void) function returns the original value of dst.*/

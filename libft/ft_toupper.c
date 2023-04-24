@@ -6,17 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 14:41:51 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:25:29 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:16:43 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*The toupper() function converts a lower-case letter to the corresponding
-upper-case letter.  The argument must be representable as an unsigned
-char or the value of EOF.
-
-If the argument is a lower-case letter, the toupper() function returns
-the corresponding upper-case letter if there is one; otherwise, the argument 
-is returned unchanged.*/
 
 // #include <ctype.h>
 // #include <stdio.h>
@@ -37,3 +29,11 @@ int	ft_toupper(int c)
 // 	printf("%d\n", toupper(c));
 // 	printf("%d\n", ft_toupper(c));
 // }
+
+/*The toupper() function converts a lower-case letter to the corresponding
+upper-case letter.  The argument must be representable as an unsigned
+char or the value of EOF.
+
+If the argument is a lower-case letter, the toupper() function returns
+the corresponding upper-case letter if there is one; otherwise, the argument 
+is returned unchanged.*/

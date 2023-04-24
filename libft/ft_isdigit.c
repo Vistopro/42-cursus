@@ -6,15 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 12:09:56 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:23:59 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:13:45 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*The isdigit() function tests for a decimal digit character.The value of the 
-argument must be representable as an unsigned char or the value of EOF.
-
-The	isdigit(void) afunction return zero if the character tests
-false and return non-zero if the character tests true.*/
 
 // #include <ctype.h>
 // #include <stdio.h>
@@ -33,3 +27,9 @@ int	ft_isdigit(int c)
 	printf("%d\n", isdigit(c));
 	printf("%d\n", ft_isdigit(c));
 }*/
+
+/*The isdigit() function tests for a decimal digit character.The value of the 
+argument must be representable as an unsigned char or the value of EOF.
+
+The	isdigit(void) afunction return zero if the character tests
+false and return non-zero if the character tests true.*/

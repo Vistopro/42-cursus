@@ -6,14 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 10:12:25 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/20 14:16:08 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:16:26 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*Reserva (con malloc(3)) y devuelve una substring de la string ’s’.
-La substring empieza desde el índice ’start’ y tiene una longitud máxima ’len’.
-
-La substring resultante. NULL si falla la reserva de memoria.*/
 
 #include "libft.h"
 
@@ -43,3 +38,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 // 	char *s = "01234";
 // 	printf("%s", ft_substr(s, 10,10));
 // }
+
+/*Reserva (con malloc(3)) y devuelve una substring de la string ’s’.
+La substring empieza desde el índice ’start’ y tiene una longitud máxima ’len’.
+
+La substring resultante. NULL si falla la reserva de memoria.*/

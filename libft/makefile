@@ -6,7 +6,7 @@
 #    By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/19 12:59:48 by vicrodri          #+#    #+#              #
-#    Updated: 2023/04/20 15:34:30 by vicrodri         ###   ########.fr        #
+#    Updated: 2023/04/24 16:07:08 by vicrodri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,9 +17,15 @@ FILES = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 		ft_memmove.c ft_memset.c ft_strchr.c ft_strlcat.c ft_strlcpy.c \
 		ft_strlen.c ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_tolower.c \
 		ft_toupper.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c \
-		ft_strtrim.c ft_itoa.c \
+		ft_strtrim.c ft_itoa.c ft_putchar_fd.c ft_putstr_fd.c \
+		ft_putendl_fd.c ft_putnbr_fd.c ft_split.c ft_strmapi.c ft_striteri.c \
+
+BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
+		ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c \
 
 OBJCS = $(FILES:%.c=%.o)
+
+BONUS_OBJCS = $(BONUS:%.c=%.o)
 
 FLAGS = -Wall -Wextra -Werror
 
@@ -36,3 +42,6 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
+bonus: $(BONUS_OBJCS)
+		ar rc $(NAME) $(BONUS_OBJCS)

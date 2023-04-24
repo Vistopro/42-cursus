@@ -6,12 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 12:25:06 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:23:55 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:13:35 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/* The isascii() function tests for an ASCII character, which is any character 
-between 0 and octal 0177 inclusive.*/
 
 // #include <ctype.h>
 // #include <stdio.h>
@@ -30,3 +27,6 @@ int	ft_isascii(int c)
 	printf("%d\n", isascii(c));
 	printf("%d\n", ft_isascii(c));
 }*/
+
+/* The isascii() function tests for an ASCII character, which is any character 
+between 0 and octal 0177 inclusive.*/

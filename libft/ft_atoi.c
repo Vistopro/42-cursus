@@ -6,12 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:21:43 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:19:05 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:13:07 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*The atoi() function converts the initial portion of the string pointed to
-by str to int representation.*/
 
 // #include "stdlib.h"
 // #include "stdio.h"
@@ -53,3 +50,6 @@ int	ft_atoi(const char *str)
 //     printf("%d\n", i);
 //     return (0);
 // }
+
+/*The atoi() function converts the initial portion of the string pointed to
+by str to int representation.*/

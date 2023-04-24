@@ -6,90 +6,73 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 15:33:06 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/20 18:00:17 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:13:22 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Utilizando malloc(3), genera una string que represente el valor entero 
-recibido como argumento. Los números negativos tienen que gestionarse.*/
-
 #include "libft.h"
-#include <stdio.h>
 
-void	ft_bzero(void *s, size_t n)
+// #include <stdio.h>
+
+size_t	ft_lenint(long n)
 {
 	size_t	i;
 
 	i = 0;
-	while (i < n)
+	if (n == 0)
+		return (1);
+	else if (n < 0)
 	{
-		((char *)s)[i] = 0;
+		n = n * (-1);
 		i++;
 	}
-}
-
-int	ft_lenint(int n)
-{
-	size_t			i;
-	unsigned int	np;
-
-	i = 0;
-	np = 0;
-	if (n < 0)
-	{
-		np = n * (-1);
-		i++;
-	}
-	else
-	{
-		np = n;
-	}
-	while (np > 0)
+	while (n > 0)
 	{
 		i++;
-		np = np / 10;
+		n = n / 10;
 	}
 	return (i);
 }
 
 char	*ft_itoa(int n)
 {
-	int				i;
-	char			*result;
-	unsigned int	np;
+	size_t	i;
+	char	*result;
+	long	nlon;
 
-	np = 0;
-	i = ft_lenint(n);
-	result = malloc(i + 1);
-    if (!result)
+	nlon = (long)n;
+	i = ft_lenint(nlon);
+	result = (char *)malloc(sizeof(char) * (i + 1));
+	if (!result)
 		return (NULL);
+	result[i] = 0;
 	if (n < 0)
 	{
 		result[0] = '-';
-		np = n * (-1);
+		nlon = nlon * (-1);
 	}
-	else
-		np = n;
-    if (n == 0)
-    {
-        result[i]=0 + '0';
-        return result;
-    }
-	ft_bzero(result + i, i);
-	while (np > 0)
+	if (nlon == 0)
+		result[0] = 0 + '0';
+	while (nlon > 0)
 	{
-		result[i - 1] = np % 10 + '0';
-		np = np / 10;
+		result[i - 1] = ((nlon % 10) + '0');
+		nlon = nlon / 10;
 		i--;
 	}
 	return (result);
 }
 
-int	main(void)
-{
-	int n = 0;
-	char *result;
-	result = ft_itoa(n);
-	
-	printf("%s", result);
-}
+// int	main(void)
+// {
+// 	int n = 0;
+// 	char *result;
+// 	result = ft_itoa(n);
+
+// 	printf("%s", result);
+// }
+
+/*Converts an int variable to a string, using an extra function that counts the 
+num of digits of the integer to perform the allocation of dynamic memory with 
+malloc.
+The array is filled from the last position to the first.
+If a memory allocation error occurs, the function returns a null pointer.*/

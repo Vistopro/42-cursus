@@ -6,15 +6,9 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 15:57:49 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/04/19 16:24:25 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:14:33 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*The memmove() function copies len bytes from string src to string dst.
-The two strings may overlap; the copy is always done in a non-destructive
-manner.
-
-The	memmove(void) function returns the original value of dst.*/
 
 // #include <stdio.h>
 #include "libft.h"
@@ -61,3 +55,9 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 // 	memmove(ptr, src, n);
 // 	printf("%s\n", ptr);
 // }
+
+/*The memmove() function copies len bytes from string src to string dst.
+The two strings may overlap; the copy is always done in a non-destructive
+manner.
+
+The	memmove(void) function returns the original value of dst.*/
