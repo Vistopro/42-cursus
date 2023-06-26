@@ -1,0 +1,11 @@
+.DS_Store
+*.out
+*.o
+*.a
+*.txt
+*.lib
+*.cache_exists
+*.swp
+*.dSYM/
+push_swap_test.sh
+checker_Mac
