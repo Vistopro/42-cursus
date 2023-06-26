@@ -25,3 +25,12 @@ I hope it helps you and I will be happy to answer any question if you need it, i
 #### Level 0
 * [Libft](https://github.com/Vistopro/42-cursus/tree/main/libft) - Creation of my own library with standard C functions, as well as some additional useful functions.
 
+#### Level 1
+* [ft_printf](https://github.com/Vistopro/42-cursus/tree/main/ft_printf) - Creation of my own library with standard C functions, as well as some additional useful functions.
+* [get_next_line](https://github.com/Vistopro/42-cursus/tree/main/get_next_line) - Creation of my own library with standard C functions, as well as some additional useful functions.
+* [Born2beroot](https://github.com/Vistopro/42-cursus/tree/main/Born2beroot) - Creation of my own library with standard C functions, as well as some additional useful functions.
+
+
+#### Level 2
+* [Push_swap](https://github.com/Vistopro/42-cursus/tree/main/Push_swap) - Creation of my own library with standard C functions, as well as some additional useful functions.
+* [Pipex](https://github.com/Vistopro/42-cursus/tree/main/Pipex) - Creation of my own library with standard C functions, as well as some additional useful functions.
