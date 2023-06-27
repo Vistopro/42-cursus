@@ -23,14 +23,14 @@ I hope it helps you and I will be happy to answer any question if you need it, i
 </b> 
 
 #### Level 0
-* [Libft](https://github.com/Vistopro/42-cursus/tree/main/libft) - Creation of my own library with standard C functions, as well as some additional useful functions.
+* [Libft](https://github.com/Vistopro/42-cursus/tree/main/libft) [125%] - Creation of my own library with standard C functions, as well as some additional useful functions.
 
 #### Level 1
-* [ft_printf](https://github.com/Vistopro/42-cursus/tree/main/ft_printf) - Creating my own printf function replicating the behavior of the original.
-* [get_next_line](https://github.com/Vistopro/42-cursus/tree/main/get_next_line) - Function that returns a line read from a file descriptor.
-* [Born2beroot](https://github.com/Vistopro/42-cursus/tree/main/Born2beroot) - Creation my first machine in VirtualBox under specific instructions.
+* [ft_printf](https://github.com/Vistopro/42-cursus/tree/main/ft_printf) [100%] - Creating my own printf function replicating the behavior of the original.
+* [get_next_line](https://github.com/Vistopro/42-cursus/tree/main/get_next_line) [112%] - Function that returns a line read from a file descriptor.
+* [Born2beroot](https://github.com/Vistopro/42-cursus/tree/main/Born2beroot) [125%] - Creation my first machine in VirtualBox under specific instructions.
 
 
 #### Level 2
-* [Push_swap](https://github.com/Vistopro/42-cursus/tree/main/Push_swap) - Creation of a program that sorts data into a stack (int array), with a limited set of instructions
-* [Pipex](https://github.com/Vistopro/42-cursus/tree/main/Pipex) - Creation of a program that simulates the functionality of the shell command | (pipe).
+* [Push_swap](https://github.com/Vistopro/42-cursus/tree/main/Push_swap) [100%] - Creation of a program that sorts data into a stack (int array), with a limited set of instructions
+* [Pipex](https://github.com/Vistopro/42-cursus/tree/main/Pipex) [100%] - Creation of a program that simulates the functionality of the shell command | (pipe).
