@@ -23,14 +23,15 @@ I hope it helps you and I will be happy to answer any question if you need it, i
 </b> 
 
 #### Level 0
-* [Libft](https://github.com/Vistopro/42-cursus/tree/main/libft) [125%] - Creation of my own library with standard C functions, as well as some additional useful functions.
+* [Libft](https://github.com/Vistopro/42-cursus/tree/main/libft) [![vicrodri's 42 Libft Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3066161)](https://github.com/JaeSeoKim/badge42) - Creation of my own library with standard C functions, as well as some additional useful functions.
 
 #### Level 1
-* [ft_printf](https://github.com/Vistopro/42-cursus/tree/main/ft_printf) [100%] - Creating my own printf function replicating the behavior of the original.
-* [get_next_line](https://github.com/Vistopro/42-cursus/tree/main/get_next_line) [112%] - Function that returns a line read from a file descriptor.
-* [Born2beroot](https://github.com/Vistopro/42-cursus/tree/main/Born2beroot) [125%] - Creation my first machine in VirtualBox under specific instructions.
+* [ft_printf](https://github.com/Vistopro/42-cursus/tree/main/ft_printf) [![vicrodri's 42 pipex Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3124196)](https://github.com/JaeSeoKim/badge42) - Creating my own printf function replicating the behavior of the original.
+* [get_next_line](https://github.com/Vistopro/42-cursus/tree/main/get_next_line) [![vicrodri's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3083543)](https://github.com/JaeSeoKim/badge42) - Function that returns a line read from a file descriptor.
+* [Born2beroot](https://github.com/Vistopro/42-cursus/tree/main/Born2beroot) [![vicrodri's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3083134)](https://github.com/JaeSeoKim/badge42) - Creation my first machine in VirtualBox under specific instructions.
 
 
 #### Level 2
-* [Push_swap](https://github.com/Vistopro/42-cursus/tree/main/Push_swap) [100%] - Creation of a program that sorts data into a stack (int array), with a limited set of instructions
-* [Pipex](https://github.com/Vistopro/42-cursus/tree/main/Pipex) [100%] - Creation of a program that simulates the functionality of the shell command | (pipe).
+* Exam Rank 02 [![vicrodri's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3115866)](https://github.com/JaeSeoKim/badge42)
+* [Push_swap](https://github.com/Vistopro/42-cursus/tree/main/Push_swap) [![vicrodri's 42 push_swap Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3103313)](https://github.com/JaeSeoKim/badge42) - Creation of a program that sorts data into a stack (int array), with a limited set of instructions
+* [Pipex](https://github.com/Vistopro/42-cursus/tree/main/Pipex) [![vicrodri's 42 pipex Score](https://badge42.vercel.app/api/v2/clgp7lvb5006808k3q0ze391u/project/3124196)](https://github.com/JaeSeoKim/badge42) - Creation of a program that simulates the functionality of the shell command | (pipe).
