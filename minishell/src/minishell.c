@@ -6,7 +6,7 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/03 18:25:13 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/08/04 17:08:42 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/09/15 15:48:15 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,19 +49,19 @@ void	ft_getcmd(t_minishell *minishell)
 	i = 0;
 	while (minishell->paths[i])
 	{
-		if (ft_strncmp(minishell->input[minishell->i_cmd], "/", 1) == 0)
-			minishell->cmd = ft_strdup(minishell->input[0]);
+		if (ft_strncmp(minishell->input[0], "/", 1) == 0)
+			minishell->path = ft_strdup(minishell->input[0]);
 		else
 		{
-			minishell->cmd = ft_strjoin(minishell->paths[i], "/");
-			minishell->cmd = ft_strjoin(minishell->cmd, minishell->input[minishell->i_cmd]);
+			minishell->path = ft_strjoin(minishell->paths[i], "/");
+			minishell->path = ft_strjoin(minishell->path, minishell->input[0]);
 		}
-		if (access(minishell->cmd, F_OK) == 0)
+		if (access(minishell->path, F_OK) == 0)
 		{
-			execve(minishell->cmd, minishell->input, minishell->envp);
+			execve(minishell->path, minishell->input, minishell->envp);
 			break ;
 		}
 		i++;
 	}
-	ft_printf("minishell: command not found: %s\n", minishell->input[minishell->i_cmd]);
+	ft_printf("minishell: command not found: %s\n", minishell->input[0]);
 }

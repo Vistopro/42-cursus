@@ -6,7 +6,7 @@
 /*   By: vicrodri <vicrodri@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/22 12:25:30 by vicrodri          #+#    #+#             */
-/*   Updated: 2023/08/03 16:39:41 by vicrodri         ###   ########.fr       */
+/*   Updated: 2023/09/18 13:07:19 by vicrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ int	ft_strcontpipex(char const *s, char c)
 				n++;
 		}
 		if ((s[i + 1] == c || s[i + 1] == '\0') && s[i] != c)
+			n++;
+		else if (s[i] == '<')
 			n++;
 		i++;
 	}
@@ -98,7 +100,7 @@ char	**ft_splitpipex(char const *str, char c)
 		return (0);
 	while (str[i] != 0)
 	{
-		while (str[i] == c && str[i] != 0)
+		while ((str[i] == c || str[i] == '<') && str[i] != 0)
 			i++;
 		if (str[i] == '\'' || str[i] == 34)
 		{
